@@ -1,0 +1,35 @@
+{
+  "python.defaultInterpreterPath": "venv/bin/python",
+  "python.terminal.activateEnvironment": true,
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "python.analysis.completeFunctionParens": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.stubPath": ".typings",
+  "editor.defaultFormatter": null,
+  "editor.formatOnSave": true,
+  "editor.fontSize": 16,
+  "editor.wordWrapColumn": 80,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wrappingIndent": "same",
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": false,
+  "editor.cursorStyle": "line",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": false
+  },
+  "editor.smoothScrolling": true,
+  "window.zoomLevel": 0,
+  "terminal.integrated.fontSize": 16,
+  "code-runner.runInTerminal": true,
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.showExecutionMessage": false,
+  "code-runner.ignoreSelection": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true,
+  "git.ignoreLimitWarning": true,
+  "editor.autoClosingDelete": "never",
+  "python.analysis.extraPaths": [
+    "./plugins",
+    "./src/api/backend/plugins"
+  ],
+}

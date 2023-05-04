@@ -1,0 +1,18 @@
+version: '3.9'
+
+services:
+  ray:
+    image: rayproject/ray:2e4eb1-py38-cu118
+    command: >
+      tail -f /dev/null
+    ports:
+      - "8260:8265"
+    volumes:
+      - ./projects:/home/ray/projects # bind mount for development
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [ gpu ]

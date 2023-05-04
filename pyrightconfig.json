@@ -1,0 +1,17 @@
+{
+    "executionEnvironments": [
+        {
+            "root": "portfolio",
+        }
+    ],
+    "reportUnusedExpression": false,
+    "reportUnusedImport": false,
+    "reportUnusedVariable": false,
+    "reportUnusedFunction": false,
+    "reportGeneralTypeIssues": false,
+    "reportUnknownArgumentType": false,
+    "reportFunctionMemberAccess": false,
+    "reportUnknownVariableType": false,
+    "reportUnknownMemberType": false,
+    "reportUntypedFunctionDecorator": false
+}

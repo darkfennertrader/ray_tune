@@ -1,0 +1,2 @@
+[MASTER]
+disable=missing-function-docstring,missing-class-docstring,missing-module-docstring,pointless-statement,unused-argument,unused-argument,unused-variable,import-outside-toplevel,unused-import,expression-not-assigned,line-too-long,redefined-outer-name, no-member
